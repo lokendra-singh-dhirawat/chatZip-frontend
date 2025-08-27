@@ -5,7 +5,7 @@ const Header = () => {
       <div className="md:hid">
         <SidebarTrigger />
       </div>
-      <h1 className="text-lg font-semibold bg-white">ChatZip</h1>
+      <h1 className="text-lg font-semibold text-white">ChatZip</h1>
       <div className="space-x-4"></div>
     </header>
   );
