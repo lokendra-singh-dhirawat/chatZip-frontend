@@ -21,8 +21,8 @@ const RegisterForm: React.FC = () => {
       password: string;
       name?: string;
     }) => apiClient.post("/auth/register", credentials),
-    onSuccess: (data) => {
-      console.log("Registration successful!", data);
+    onSuccess: () => {
+      console.log("Registration successful!");
 
       navigate("/login", { state: { registered: true, email: email } });
     },
